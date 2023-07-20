@@ -1,0 +1,154 @@
+body {
+    background-image: url("./img/consis/consis12.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.head {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    text-align: left;
+    background-color: rgba(240, 248, 255, 0.452);
+    box-shadow: 0 10px 20px black;
+    border-radius: 25px;
+    position: relative;
+    left: 35%;
+    width: 30%;
+    color: aliceblue;
+}
+
+.count1 {
+    color: rgb(176, 187, 173);
+    text-align: justify;
+    font-style: oblique;
+    margin-right: 30px;
+    background-color: rgba(5, 5, 5, 0.726);
+    height: 380px;
+    position: relative;
+    left: 100px;
+    width: 80%;
+    border-radius: 30px;
+    transition-duration: 2s;
+}
+
+.count1:hover {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: justify;
+    font-style: oblique;
+    margin-right: 30px;
+    height: 380px;
+    position: relative;
+    left: 100px;
+    width: 80%;
+    border-radius: 30px;
+}
+
+.count1 .img1 {
+    transition-property: width;
+    height: 180px;
+    width: 250px;
+    transition-duration: 2s;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: right;
+}
+
+.count1 .img1:hover {
+    width: 300px;
+}
+
+.count2 {
+    color: rgba(0, 0, 0, 0.705);
+    text-align: justify;
+    font-style: oblique;
+    margin-right: 30px;
+    background-color: rgba(192, 192, 192, 0.815);
+    height: 480px;
+    position: relative;
+    left: 100px;
+    width: 80%;
+    border-radius: 30px;
+    transition-duration: 2s;
+}
+
+.count2:hover {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: justify;
+    font-style: oblique;
+    margin-right: 90px;
+    background-color: rgb(255, 255, 255);
+    height: 450px;
+    position: relative;
+    left: 100px;
+    width: 80%;
+    border-radius: 30px;
+}
+
+.count2 .img2 {
+    float: left;
+    transition-property: width;
+    height: 180px;
+    width: 250px;
+    transition-duration: 1.4s;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.count2 .img2:hover {
+    width: 300px;
+    height: 200px;
+}
+
+
+/*.horaires {
+    background-color: aliceblue;
+    border-bottom-left-radius: 25px;
+    border-radius: 25px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    bottom: 0;
+    left: 300px;
+    right: 200px;
+    width: 65%;
+}*/
+
+.INFORMATIONS {
+    background-color: rgb(245, 248, 250);
+    border-bottom-left-radius: 25px;
+    border-radius: 25px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    bottom: 0;
+    left: 220px;
+    right: 250px;
+    width: 65%;
+}
+
+
+/*MENUS*/
+
+.box {
+    margin-left: 50px;
+    border-radius: 19px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.979);
+    z-index: 1;
+    overflow: hidden;
+    background-color: aliceblue;
+}
+
+.box-cont {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 0 12px 24px rgba(255, 255, 255, 0.959);
+    z-index: 1;
+    overflow: hidden;
+}
